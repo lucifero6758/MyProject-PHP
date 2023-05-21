@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.sidebar {
+    background-color: rgb(92, 46, 0);
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.sidebar h2 {
+    /* margin-top: 10px; */
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    margin-left: 200px;
+    /* Lebar sidebar */
+    padding: 16px;
+}
+
+table {
+    width: 1200px;
+    margin-top: 25px;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 8px;
+}
+
+th {
+    text-align: center;
+}
+
+tbody td {
+    position: relative;
+}
+
+.button-input-edit {
+    background-color: yellow;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember", sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+    /* margin-top: 25px; */
+    color: black;
+}
+
+.button-input-hapus {
+    background-color: red;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember", sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+    /* margin-top: 25px; */
+    color: black;
+}
+
+.button-input-1 {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember", sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    width: 120px;
+    margin-top: 25px;
+    color: black;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.cari {
+    margin-top: 20px;
+    padding: 0 10px 0 11px;
+    margin-left: 53%;
+}
+
+.bcari {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 0 10px 0 11px;
+}

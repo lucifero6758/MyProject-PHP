@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.sidebar {
+    background-color: rgb(92, 46, 0);
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.sidebar h2 {
+    /* margin-top: 10px; */
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    margin-left: 200px;
+    /* Lebar sidebar */
+    padding: 16px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    gap: 24px;
+    padding: 24px;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    position: relative;
+    padding: 24px;
+    background: rgb(176, 102, 0);
+    flex-basis: calc(20% - 20px);
+    color: white;
+}
+
+.box-top {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 12px;
+    margin-bottom: 36px;
+}
+
+.title-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-follow-info {
+    color: rgb(255, 255, 255);
+}
